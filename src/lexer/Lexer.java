@@ -240,8 +240,4 @@ public class Lexer {
         map.put("break", "BREAK");
         map.put("end", "END");
     }
-    public static void main(String[] args) throws FileNotFoundException, IOException
-    {
-        Lexer.Tokanize("testcase.txt");
-    }
 }
